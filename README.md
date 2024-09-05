@@ -33,3 +33,23 @@ In AWS, a **policy** is a document that defines permissions. It specifies what a
 # Roles :
 In AWS, a **role** is a set of permissions that define what actions an entity (such as an AWS service, user, or application) can perform on AWS resources. Roles are used to grant temporary access to AWS resources without needing to share long-term credentials. For example, you can create a role for an EC2 instance to access an S3 bucket, or for a user to assume temporarily for specific tasks. Roles are particularly useful for granting access between different AWS accounts or services securely.
 
+# we can create the policies throught the json format
+we can allows access or deny access with help of  using the json formate
+first of all we need to create the in line policies then we need to change json formate through that we can do any thing like allow or deny
+# Allow the polcy through json formate :
+![222](https://github.com/user-attachments/assets/959d73cd-a2aa-4102-b32e-9a8bbb9c378f)
+We can see that the policy added throught the json formate with the help of create in line policy
+![awss3](https://github.com/user-attachments/assets/a548b37c-27a8-43b9-8fc0-a143b1ebceb6)
+# Deny the polcy throught json formate :
+Now,we can see that the policy deny throught the json formate with the help of create in line policy
+
+![resultofdenning](https://github.com/user-attachments/assets/34006979-fd56-4331-9f3d-5cb489e5f72b)
+![dennings3](https://github.com/user-attachments/assets/59d19749-ee55-4dbe-b7c3-a1b3e5c7b3d7)
+ # The result is Here :
+ We cannot do any thing on this page after denning the policy.Without any permissions we cannot do anything on that page 
+ ![000](https://github.com/user-attachments/assets/709afe2b-12b1-4bc6-a440-0214f9d626a7)
+
+
+
+
+
